@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place all CSS for header in this file -->
+    <link href='css\header.css' rel='stylesheet' type='text/css'>
+
+    <!-- Place all CSS for the rest of the elements in this file -->
+    <link href='css\index.css' rel='stylesheet' type='text/css'>
+
+	<!-- Place all CSS for fonts in this file -->
+    <link href='css\font.css' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div id="main-container-div">
+
+        <div class="header">
+
+        	<!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
+            <p class="main"> ScriBBler </p><br>
+            <p class="sub"> Explore. Imagine. Create </p>
+
+            <button id="btn1" type="button" class="sign"> Sign In </button>
+            <button id="btn2" type="button" class="sign"> Sign Up </button>
+        </div>
+           
+        <div class="postButtons">
+
+        	<!-- Insert code for All Posts & Create Post button here -->
+            <input class="modal1" type="button" value="All posts" style="cursor: pointer;">
+            <input class="modal2" type="button" value="Create Post" style="cursor: pointer;" >
+            
+        </div>
+    </div>
+
+    <div>
+
+        <!-- Insert code for Sign In modal here -->
+        <div id="myModal2"> 
+                <div class="modalContent2">
+                    <span class="close">&times;</span>
+                    <h2>Welcome Back!</h2><hr>
+                    <form method="POST">
+                        <label>User name</label><br>
+                        <input type="text" name="last" placeholder="Enter Username" required>
+                        <label>Password</label><br>
+                        <input type="password" name="pwd" placeholder="Enter Password" required>
+                        <button style="cursor: pointer; background-color: green; color:white;">Sign In</button>
+                    </form>  
+                    <a>Not a member?</a>
+                    <a href="index.html" style="color:blue;" style="cursor: pointer;">Sign Up</a>                 
+                </div>
+        </div>
+
+    </div>
+
+    <div>
+
+        <!-- Insert code for Sign Up modal here -->
+        <div id="myModal1"> 
+                <div class="modalContent">
+                    <span class="close">&times;</span>
+                    <h2>Get Started</h2><hr>
+                    <form method="POST">
+                        <label>Full Name</label><br>
+                        <input type="text" name="first" placeholder="Enter Full Name" required>
+                        <label>Username</label><br>
+                        <input type="text" name="last" placeholder="Enter Username" required>
+                        <label>Password</label><br>
+                        <input type="password" name="pwd" placeholder="Enter Password" required>
+                        <label>Confirm Password</label><br>
+                        <input type="password" name="cnfm" placeholder="Confirm Password" required><br>
+                        <button style="cursor: pointer; background-color: green; color: white;">Sign Up</button>
+                    </form>                      
+                </div>
+        </div>
+
+    </div>
+
+    <div>
+
+    	<!-- Insert code for Create Post modal here -->
+
+    </div>
+
+	<!-- Place all Javascript for header in this file -->
+	<script src="js\header.js"></script>
+	<!-- Place all Javascript for rest of the elements in this file -->
+    <script src="js\index.js"></script>
+
+</body>
+</html>

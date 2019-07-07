@@ -1,0 +1,43 @@
+body{
+    background-color: darkgoldenrod;
+}
+
+.main{
+    font-family: "Satisfy-Regular";
+    font-size: 80px;
+    color: blue;
+    text-align: left;
+}
+
+.sub
+{
+    font-family: "Satisfy-Regular";
+    font-size: 50px;
+    color: black;
+    text-align: left;
+}
+.sign{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    width: 50px;
+    height: 30px;
+    margin-top: 0;
+    margin-right: 0;
+    cursor: pointer;
+    align-self: right;
+}
+
+.blogContent{
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.blogText{
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 20px;
+}
