@@ -1,2 +1,2 @@
 # blogpost
-website for blogposts (upGrad project)
+website for blogposts 
